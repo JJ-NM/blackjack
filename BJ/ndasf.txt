@@ -1,0 +1,264 @@
+
+[
+    {
+<div id="asCorazones" class="card">
+                    <p>A</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="asOros" class="card">
+                    <p>A</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="asEspadas" class="card">
+                    <p>A</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="asCopas" class="card">
+                    <p>A</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="dosCorazones" class="card">
+                    <p>2</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="dosOros" class="card">
+                    <p>2</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="dosEspadas" class="card">
+                    <p>2</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="dosCopas" class="card">
+                    <p>2</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="tresCorazones" class="card">
+                    <p>3</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="tresOros" class="card">
+                    <p>3</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="tresEspadas" class="card">
+                    <p>3</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="tresCopas" class="card">
+                    <p>3</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="cuatroCorazones" class="card">
+                    <p>4</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="cuatroOros" class="card">
+                    <p>4</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="cuatroEspadas" class="card">
+                    <p>4</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="cuatroCopas" class="card">
+                    <p>4</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="cincoCorazones" class="card">
+                    <p>5</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="cincoOros" class="card">
+                    <p>5</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="cincoEspadas" class="card">
+                    <p>5</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="cincoCopas" class="card">
+                    <p>5</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="seisCorazones" class="card">
+                    <p>6</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="seisOros" class="card">
+                    <p>6</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="seisEspadas" class="card">
+                    <p>6</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="seisCopas" class="card">
+                    <p>6</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="sieteCorazones" class="card">
+                    <p>7</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="sieteOros" class="card">
+                    <p>7</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="sieteEspadas" class="card">
+                    <p>7</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="sieteCopas" class="card">
+                    <p>7</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="ochoCorazones" class="card">
+                    <p>8</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="ochoOros" class="card">
+                    <p>8</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="ochoEspadas" class="card">
+                    <p>8</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="ochoCopas" class="card">
+                    <p>8</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="nueveCorazones" class="card">
+                    <p>9</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="nueveOros" class="card">
+                    <p>9</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="nueveEspadas" class="card">
+                    <p>9</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="nueveCopas" class="card">
+                    <p>9</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="diezCorazones" class="card">
+                    <p>10</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="diezOros" class="card">
+                    <p>10</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="diezEspadas" class="card">
+                    <p>10</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="diezCopas" class="card">
+                    <p>10</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="jackCorazones" class="card">
+                    <p>J</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="jackOros" class="card">
+                    <p>J</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="jackEspadas" class="card">
+                    <p>J</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="jackCopas" class="card">
+                    <p>J</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="reinaCorazones" class="card">
+                    <p>Q</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="reinaOros" class="card">
+                    <p>Q</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="reinaEspadas" class="card">
+                    <p>Q</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="reinaCopas" class="card">
+                    <p>Q</p>
+                    <p>♣</p>
+                </div>
+
+                <div id="reyCorazones" class="card">
+                    <p>K</p>
+                    <p>♥</p>
+                </div>
+
+                <div id="reyOros" class="card">
+                    <p>K</p>
+                    <p>♦</p>
+                </div>
+
+                <div id="reyEspadas" class="card">
+                    <p>K</p>
+                    <p>♠</p>
+                </div>
+
+                <div id="reyCopas" class="card">
+                    <p>K</p>
+                    <p>♣</p>
+                </div>
+    }
+]
