@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(32, 33, 36);
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+#game {
+  height: 50vh;
+  display: block;
+  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), #008f32;
+  width: 70vw;
+  margin: 10vh auto;
+  border: rgb(95, 39, 6) solid 10px;
+  display: grid;
+  grid-template-rows: 25% 50% 25%;
+}
+
+#center {
+  display: grid;
+  width: 95%;
+  grid-template-columns: 10% 80% 10%;
+  place-content: center;
+  place-self: center;
+}
+
+#userCount,
+#appCount {
+  color: white;
+  margin: 0 auto;
+  border: black solid 2px;
+  text-align: center;
+}
+
+#message {
+  display: none;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 12px;
+  height: 30%;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 100%;
+  place-content: center;
+  box-shadow: -1px 1px 200px 50px rgb(0, 0, 0);
+  cursor: default;
+  text-align: center;
+}
+
+#gameEnding {
+  display: grid;
+  place-self: center;
+}
+
+#playAgain {
+  cursor: pointer;
+  background-color: rgb(184, 0, 0);
+  width: 30%;
+  text-align: center;
+  display: grid;
+  place-self: center;
+  border-radius: 10px;
+}
+
+#playAgain p {
+  padding: 10%;
+}
+
+#cardContainer,
+#marcador {
+  width: auto;
+  margin: 0 auto;
+}
+
+#marcador {
+  position: relative;
+}
+
+#marcador div {
+  position: absolute;
+  bottom: 0;
+}
+
+#marcador div:nth-child(1) {
+  right: 0px;
+}
+
+.card {
+  background-color: whitesmoke;
+  height: 90px;
+  width: 60px;
+  margin: 0 1px;
+  border: black solid 1px;
+  display: grid;
+  grid-template-rows: 25% 50% 25%;
+  float: left;
+}
+
+.card p:nth-child(1) {
+  margin-left: 5px;
+}
+
+.card p:nth-child(2) {
+  display: grid;
+  place-self: center;
+}
+
+.card p:nth-child(3) {
+  transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+.hidenCard {
+  background-color: rgb(0, 90, 100);
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  place-self: center;
+  gap: 10%;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#buttons div {
+  background-color: rgb(84, 0, 0);
+  border-radius: 10px;
+  cursor: default;
+  color: white;
+}
+
+.btnTx {
+  padding: 10%;
+  color: white;
+}
+
+#restart {
+  display: none;
+}
+
+#start,
+#hit,
+#stay,
+#restart {
+  background-color: rgb(184, 0, 0) !important;
+  cursor: pointer !important;
+}
+
+#start:hover,
+#hit:hover,
+#stay:hover,
+#restart:hover {
+  background-color: rgb(170, 0, 0) !important;
+}
+
+@media only screen and (max-height: 570px) {
+  #game {
+    height: 80vh;
+    margin: 1vh auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #game {
+    width: 100%;
+  }
+
+  #center {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+  }
+
+  #buttons {
+    width: 90%;
+    gap: 5%;
+  }
+
+  #message {
+    width: 75%;
+    left: 10%;
+  }
+}

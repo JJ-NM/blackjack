@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="game">
+        <div id="marcador"></div>
+
+        <div id="center">
+          <div id="userCount">
+            <p>Tu mano:</p>
+            <p id="userHand">0</p>
+          </div>
+          <div id="gameContent">
+            <div id="message">
+              <h2 id="gameEnding"></h2>
+              <div id="playAgain">
+                <p>Volver a jugar</p>
+              </div>
+            </div>
+          </div>
+          <div id="appCount">
+            <p>Mano del crupier:</p>
+            <p id="appHand">0</p>
+          </div>
+        </div>
+
+        <div id="cardContainer"></div>
+      </div>
+
+      <div id="buttons">
+        <div id="restart">
+          <p class="btnTx">Reiniciar</p>
+        </div>
+
+        <div id="start">
+          <p class="btnTx">Comenzar</p>
+        </div>
+
+        <div>
+          <p class="btnTx">Pedir</p>
+        </div>
+        <div>
+          <p class="btnTx">Quedarse</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
